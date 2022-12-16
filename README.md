@@ -1,108 +1,84 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# A Cure for Sitting
 
-Welcome USER_NAME,
+A cure for sitting is a project looking to educate software developers on ways to combat the negative physical effects of sitting for long periods of time. This site will be focused towards those who have tried the conventional interventions such as workplace ergonomics and passive physical modalities like cupping and dry needling and who are still suffering with aches and pains. The site is intended to be an intro to a new, proven method of pain relief through breath work and movement with the intent of future participation in a workplace wellness workshop or webinar. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<!-- add screenshot generator image here -->
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
++ Nav bar & header design. This will introduce the general style of the site with the heading **A Cure For Sitting** and navigation links to the following features/sections.
+<!-- link to naviagation bar with image here -->
 
-## Gitpod Reminders
++ The site landing page will be broken into three main sections directed towards educating and capturing the readers interest towards physical health when working in a seated position for long periods of time. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+  + The first section will be an intro paragraph focused on grabbing the users attention through shared experience and empathy. It then goes on to a myth busting fact to get the user more interested and add value to the authority of the website and its contents. This is backed even further by an external link to an article focusing on a breathing exercise to help clarify the previous points made in the intro. It also creates a structure for the following sections.
+  + The second sections will be a practical way of applying the information provided through a youtube video of an exercise designed for those in a seated position suffering from low back or upper back pain with a supporting paragraph of text.
+  + The third and final section will include a link to an instagram reel furhter highlighting th benefits of movement for physical pain and an outro leading into the footer elements.
+  + Each section will be clearly layed out and given dominating areas of left, center and right respectively with an anatomical background image in faded red sketch style to convay a clinical tone without being too sterile.
+<!-- link to sections tab here -->
 
-`python3 -m http.server`
+ ## *Navigation links* 
+ will be placed across the top right hand side of the header to guide users to extra features of the whole website.
 
-A blue button should appear to click: _Make Public_,
+  + **Blog**
+          
+    A page dedicated to educational articles for those interested in further understanding of the issues discussed on the landinf page.
 
-Another blue button should appear to click: _Open Browser_.
+    This will add much more value to the programs and webinar/workshops as it gives the users more insight into the approach.
+    
+  + **Programs**
+        
+    A page dedicated to the sale of rehab programms aimed at curing certain physical issues caused from long term sitting.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    This will create a pratical link to the over all aim of promoting the webinar & workshop by giving the user access a cahnce to try the techniques for themselves and find value in their effect.
 
-A blue button should appear to click: _Make Public_,
+  + **Webinar/Workshop**
+          
+    A page dedicated to information on and the sale of tickets for live webinars and workshops for the A Cure for Sitting program.
 
-Another blue button should appear to click: _Open Browser_.
+    This is the main selling point of the website and where users will gain the most value from signing up and attending to see the techniques applied in person and also to ask any questions they may have.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  + **Sign up** 
 
-To log into the Heroku toolbelt CLI:
+    This page will give users the chance to enter their email, name and interest in either a webinar or workshop with more encouragment to reach out via social media links and email address. 
+  <!-- link to sign up page with image here -->
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ + **Footer** 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    With same design as header for continuity with social links to encourage reaching out that open in a new tab and another call to action to sign up for the email list to further encourage sign ups to the webinar/workshops.
+  <!-- link to image and footer tab here -->
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Existing Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## **Navigation bar**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    + Featured on all pages and locked in place as you scroll through the pages with responsive links to each of the  . 
+    + This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    <!-- image link to nav bar here -->
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
++ **Ethos and Education Sections**
+  + Three sections designed to establish the sites ethos of movement to cure physical pain from lack of movement. Movement of the Diaphragm through breathing, Movement of the spine through flexing and movement of the whole body through walking. 
+  + Each section will have a background image attatched with clear and stylised font that displays importance and clarity. Each section will also have an accompanying file to aid in communicating the message. All of this will give value to the user by eductaing them on the importance of movement for physical health and give some applicaple practices that will help them in the short term.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
++ **Footer**
+  + With same design as header for continuity with social links to encourage reaching out that open in a new tab and another call to action to sign up for the email list to further encourage sign ups to the webinar/workshops.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
++ **Sign-Up Page**
+  + This page will allow the user to choose wether they would prefer to attend a live webinar or workshop and also enter their email details to get access to important updates on upcoming features like thge blog and programs pages.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features left to implement
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
++ **Blog**
+  + This will be a page updated monthly with an article on a certain topic to do with physical health for coders based on the physical demands of their jobs.
+  + The intent would be to educate and create more buy-in to the ethos of movement to cure ailgments from a lack of movement i.e. sitting for long periods of time.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
++ **Programs** 
+  + This page will be used to upload and display programs aimed at curing specific issues of pain arrising from sitting for long periods of times such as low back pain, head-aches, upper back pain, neck pain, shoulder pain and carpal tunnel syndrome.
+  + This is where a lot of users will get a lot value as it is a more practical approach and they will get short term relief from their issue.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
++ **Workshop & Webinars**
+  + This external link will bring the user to a page dedicated to inperson or online workshops. Giving them times, dates and locations with prices for each one.
+  + This is the main selling point of the whole website and where users will experience the most value by attending.
