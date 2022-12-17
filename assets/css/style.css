@@ -10,28 +10,35 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.33fr 1fr 1fr 1fr 1fr 1fr 0.33fr;
+    grid-template-rows: 0.33fr 1fr .25fr 1fr 1fr 1fr 1fr 0.33fr;
     grid-template-areas: 
-    "logo nav"
-    "main main"
-    "section1 box-breathing"
+    "header header"
+    "intro intro"
+    "nav2 nav2"
+    "section1 box"
     "section2 youtube"
     "section3 instagram"
     "outro outro"
     "footer footer"
     ;
+    grid-gap: .2rem;
 }
 
-header {
-    grid-area: logo;
+#logo {
+    grid-area: header;
 }
 
 nav {
-    grid-area: nav;
+    grid-area: header;
 }
 
 #intro {
-    grid-area: main;
+    grid-area: intro;
+}
+
+#nav2 {
+    grid-area: nav2;
+    text-align: end;
 }
 
 #section1 {
@@ -39,7 +46,7 @@ nav {
 }
 
 #box {
-    grid-area: box-breathing;
+    grid-area: box;
 } 
 
 #section2 {
@@ -65,3 +72,23 @@ nav {
 footer {
     grid-area: footer;
 }
+
+@media only screen and (max-width:550px) 
+{.container { 
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr .75fr .175fr .75fr .75fr .75fr .75fr .75fr .75fr .75fr .3fr;
+    grid-template-areas: 
+    "header"
+    "intro"
+    "nav2"
+    "section1"
+    "box"
+    "section2"
+    "youtube"
+    "section3"
+    "instagram"
+    "outro"
+    "footer"
+    ;
+}
+} 
