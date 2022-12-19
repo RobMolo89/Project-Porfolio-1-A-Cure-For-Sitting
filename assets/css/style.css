@@ -99,16 +99,16 @@ p {
     line-height: 1.6em;
     word-spacing: 5px;
     margin-bottom: 30px;
+    height: 100%;
+    font-size: 150%;
+
 }
 
 #intro {
     grid-area: intro;
     color: rgb(196, 60, 30);
-    grid-area: intro;
-    height: 100%;
     text-align: center;
     padding: 150px;
-    font-size: 150%;
 }
 
 #intro h2 {
@@ -117,11 +117,24 @@ p {
 
 #nav2 {
     grid-area: nav2;
+    position: sticky;
+    top: 0;
     text-align: end;
+}
+
+#nav2 li {
+    margin-right: 30px;
+    display: inline;
+    list-style-type: none;
+}
+
+#nav2 a:hover {
+    text-transform: uppercase;
 }
 
 #nav2 a {
     text-decoration: none;
+    color: black;
 }
 
 #section1 {
@@ -164,11 +177,8 @@ p {
 #outro {
     grid-area: outro;
     color: rgb(196, 60, 30);
-    height: 100%;
     text-align: center;
     padding: 150px;
-    font-size: 150%;
-    
 }
 
 /* footer and socials*/
