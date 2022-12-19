@@ -23,7 +23,7 @@
     "outro outro"
     "footer footer"
     ;
-    grid-gap: .2rem;
+   
 }
 
 
@@ -34,7 +34,6 @@ h2 {
     font-weight: 300, bold;
     text-transform: uppercase;
     letter-spacing: 4px;
-    padding-left: 1em;
 }
 
 
@@ -45,7 +44,7 @@ h2 {
     font-size: 150%;
     text-transform: uppercase;
     background-color: rgb(196, 60, 30);
-    border: 3px solid black;
+    padding-left: 1.3em;
 }
 
 header a {
@@ -92,18 +91,33 @@ header a {
 
 /*Sections*/
 
+h2 {
+    margin: 1em auto 1em 0;
+}
+
+p {
+    line-height: 1.6em;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+}
+
 #intro {
     grid-area: intro;
-    border: 3px solid black;
-    background-color: black;
     color: rgb(196, 60, 30);
+    grid-area: intro;
+    height: 100%;
+    text-align: center;
+    padding: 150px;
+    font-size: 150%;
+}
+
+#intro h2 {
+    font-weight: 700;
 }
 
 #nav2 {
     grid-area: nav2;
     text-align: end;
-    border: 3px solid black;
-
 }
 
 #nav2 a {
@@ -112,13 +126,13 @@ header a {
 
 #section1 {
     grid-area: section1;
-    border: 3px solid black;
+    margin: 40px 40px 100px 100px;
+
 }
 
 #box {
     grid-area: box;
     justify-self: center;
-    border: 3px solid black;
     padding: 1em;
     text-align: center;
     text-decoration: underline;
@@ -127,34 +141,41 @@ header a {
 
 #section2 {
     grid-area: section2;
-    border: 3px solid black;
+    margin: 40px 40px 100px 100px;
+    
 }
 
 #youtube {
     grid-area: youtube;
-    border: 3px solid black;
+    
 }
 
 #section3 {
     grid-area: section3;
-    border: 3px solid black;
+    margin: 40px 40px 100px 100px;
+    
 }
 
 #instagram {
     grid-area: instagram;
-    border: 3px solid black;
+    
 }
 
 #outro {
     grid-area: outro;
-    border: 3px solid black;
+    color: rgb(196, 60, 30);
+    height: 100%;
+    text-align: center;
+    padding: 150px;
+    font-size: 150%;
+    
 }
 
 /* footer and socials*/
 
 footer {
     grid-area: footer;
-    border: 3px solid black;
+    
 }
 
 /*Mobile screen responsivness*/
