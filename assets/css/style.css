@@ -6,6 +6,8 @@
     border: none;
 }
 
+/*Grid Area*/
+
 .container {
     display: grid;
     height: 100vh;
@@ -24,22 +26,88 @@
     grid-gap: .2rem;
 }
 
-header {
-    grid-area: header;
-    border: 3px solid black;
+
+
+h1,
+h2 {
+    font-family: hind Vadodara, sans-serif;
+    font-weight: 300, bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-left: 1em;
 }
 
 
+/*Logo and main nav bar*/
+
+#logo {
+    grid-area: header;
+    font-size: 150%;
+    text-transform: uppercase;
+    background-color: rgb(196, 60, 30);
+    border: 3px solid black;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav1 {
+    grid-area: header;
+    font-size: 135%;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    padding-right: 1.5em;
+    text-align: end;
+    
+}
+
+#nav1 li {
+    margin-right: 30px;
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+
+#nav1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav1 a:hover {
+    text-transform: uppercase;
+}
+
+
+#logo,
+#nav1 {
+    line-height: 75px;
+}
+
+.active {
+    text-decoration: underline;
+    border-bottom: 3px solid black;
+}
+
+/*Sections*/
 
 #intro {
     grid-area: intro;
     border: 3px solid black;
+    background-color: black;
+    color: rgb(196, 60, 30);
 }
 
 #nav2 {
     grid-area: nav2;
     text-align: end;
     border: 3px solid black;
+
+}
+
+#nav2 a {
+    text-decoration: none;
 }
 
 #section1 {
@@ -49,8 +117,13 @@ header {
 
 #box {
     grid-area: box;
+    justify-self: center;
     border: 3px solid black;
-} 
+    padding: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 #section2 {
     grid-area: section2;
@@ -77,15 +150,19 @@ header {
     border: 3px solid black;
 }
 
+/* footer and socials*/
+
 footer {
     grid-area: footer;
     border: 3px solid black;
 }
 
-@media only screen and (max-width:550px) 
-{.container { 
-    grid-template-columns: 1fr;
-    grid-template-rows: .3fr .75fr .175fr .75fr .75fr .75fr .75fr .75fr .75fr .75fr .3fr;
+/*Mobile screen responsivness*/
+
+@media only screen and (max-width:550px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: .3fr .75fr .175fr .75fr .75fr .75fr .75fr .75fr .75fr .75fr .3fr;
     grid-template-areas: 
     "header"
     "intro"
@@ -99,5 +176,5 @@ footer {
     "outro"
     "footer"
     ;
+    }
 }
-} 
