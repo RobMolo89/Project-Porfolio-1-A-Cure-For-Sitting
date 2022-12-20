@@ -13,17 +13,17 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .33fr 1fr .25fr 1fr 1fr 1fr 1fr 0.33fr;
-    grid-template-areas: 
-    "header header"
-    "intro intro"
-    "nav2 nav2"
-    "section1 box"
-    "section2 youtube"
-    "section3 instagram"
-    "outro outro"
-    "footer footer"
+    grid-template-areas:
+        "header header"
+        "intro intro"
+        "nav2 nav2"
+        "section1 box"
+        "section2 youtube"
+        "section3 instagram"
+        "outro outro"
+        "footer footer"
     ;
-   
+
 }
 
 
@@ -59,7 +59,7 @@ header a {
     letter-spacing: 2.5px;
     padding-right: 1.5em;
     text-align: end;
-    
+
 }
 
 #nav1 li {
@@ -139,46 +139,62 @@ p {
 
 #section1 {
     grid-area: section1;
-    margin: 40px 40px 100px 100px;
+    border: 3px solid black;
+    padding: 0 50px 0 100px;
+    background-color: black;
+    color: white;
+}
 
+#section1 h2 {
+    text-decoration: underline;
+    font-size: xx-large;
 }
 
 #box {
     grid-area: box;
-    justify-self: center;
-    padding: 1em;
-    text-align: center;
+    place-items: center;
     text-decoration: underline;
+    border: 3px solid black;
+    text-align: center;
+    padding-top: 130px;
+    background-color: black;
 }
 
 
+#box a {
+    text-decoration: none;
+    color: white;
+}
+
 #section2 {
     grid-area: section2;
-    margin: 40px 40px 100px 100px;
-    
+    padding: 40px 40px 100px 100px;
+    border: 3px solid black;
 }
 
 #youtube {
     grid-area: youtube;
-    
+    border: 3px solid black;
+
 }
 
 #section3 {
     grid-area: section3;
-    margin: 40px 40px 100px 100px;
-    
+    padding: 40px 40px 100px 100px;
+    border: 3px solid black;
+
 }
 
 #instagram {
     grid-area: instagram;
-    
+
 }
 
 #outro {
     grid-area: outro;
     color: rgb(196, 60, 30);
     text-align: center;
-    padding: 150px;
+    padding: 150px 150px 50px 150px;
 }
 
 /* footer and socials*/
@@ -192,7 +208,7 @@ footer {
     text-align: center;
 }
 
-.socials > li {
+.socials>li {
     display: inline;
 }
 
@@ -203,24 +219,25 @@ footer {
     padding-right: 2em;
     color: rgb(196, 60, 30);
 }
+
 /*Mobile screen responsivness*/
 
 @media only screen and (max-width:550px) {
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: .3fr .75fr .175fr .75fr .75fr .75fr .75fr .75fr .75fr .75fr .3fr;
-    grid-template-areas: 
-    "header"
-    "intro"
-    "nav2"
-    "section1"
-    "box"
-    "section2"
-    "youtube"
-    "section3"
-    "instagram"
-    "outro"
-    "footer"
-    ;
+        grid-template-areas:
+            "header"
+            "intro"
+            "nav2"
+            "section1"
+            "box"
+            "section2"
+            "youtube"
+            "section3"
+            "instagram"
+            "outro"
+            "footer"
+        ;
     }
 }
