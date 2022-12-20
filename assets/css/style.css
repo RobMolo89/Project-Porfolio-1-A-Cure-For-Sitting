@@ -21,7 +21,7 @@
         "section2 youtube"
         "section3 instagram"
         "outro outro"
-        "footer footer"
+        "socials socials"
     ;
 
 }
@@ -43,6 +43,7 @@ h3 {
 #logo {
     grid-area: header;
     font-size: 150%;
+    text-decoration: underline;
     text-transform: uppercase;
     background-color: rgb(196, 60, 30);
     color: white;
@@ -220,7 +221,7 @@ p {
 /* footer and socials*/
 
 footer {
-    grid-area: footer;
+    grid-area: socials;
     background-color: black;
 }
 
@@ -258,26 +259,34 @@ footer {
             "section3"
             "instagram"
             "outro"
-            "footer"
+            "socials"
         ;
     }
 }
 
 /* Sign-Up Form*/
 
+
 .signup-form {
     margin: 150px 10% 0 0;
     color: black;
-    background-color: rgb(196, 60, 30, .5);
+    background-color: rgba(243, 45, 1, 0.3);
     max-width: 550px;
-    position: absolute;
+    position: fixed;
     left: 10%;
     padding: 30px;
 }
 
 .signup-form > h2 {
     color: black;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 4px solid black;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .text-input {
