@@ -12,7 +12,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .33fr 1fr .25fr 1fr 1fr 1fr 1fr .33fr;
+    grid-template-rows: .33fr 1fr .33fr 1fr 1fr 1fr 1fr .33fr;
     grid-template-areas:
         "header nav1"
         "intro intro"
@@ -125,12 +125,14 @@ p {
     position: sticky;
     top: 0;
     text-align: end;
+    background-color: rgb(196, 60, 30);
 }
 
 #nav2 li {
     margin-right: 30px;
     display: inline;
     list-style-type: none;
+    font-size: large;
 }
 
 #nav2 a:hover {
@@ -181,8 +183,8 @@ p {
 
 #youtube {
     grid-area: youtube;
-    border: 3px solid black;
-    margin: 3em;
+    margin-top: 100px;
+    padding: 3em;
     
 
 }
@@ -192,13 +194,11 @@ p {
     padding: 150px 25px 150px 100px;
     background-color: black;
     color: white;
-
-
 }
 
 #instagram {
     grid-area: instagram;
-    padding: 50px 10px 50px 200px;
+    padding: 50px 10px 50px 100px;
     background-color: black;
 }
 
@@ -246,7 +246,7 @@ footer {
 @media only screen and (max-width:550px) {
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: .3fr .2 .75fr .175fr .75fr .75fr .75fr .75fr .75fr .75fr .75fr .3fr;
+        grid-template-rows: .3fr .2 .75fr .175fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .3fr;
         grid-template-areas:
             "header"
             "nav1"
