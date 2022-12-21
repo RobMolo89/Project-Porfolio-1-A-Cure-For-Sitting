@@ -127,21 +127,24 @@ p {
     background-color: rgb(196, 60, 30);
 }
 
+
 #nav2 li {
-    margin-right: 30px;
+    padding-right: 30px;
     display: inline;
     list-style-type: none;
     font-size: large;
-}
-
-#nav2 a:hover {
-    text-transform: uppercase;
 }
 
 #nav2 a {
     text-decoration: none;
     color: black;
 }
+
+#nav2 a:hover {
+    text-decoration: underline;
+}
+
+
 
 #section1 {
     grid-area: section1;
@@ -262,16 +265,7 @@ footer {
         ;
     }
 }
-.04fr .5fr .01fr .8fr .8fr .8fr .8fr .03fr;
-    grid-template-areas:
-        "header nav1"
-        "intro intro"
-        "nav2 nav2"
-        "section1 box"
-        "section2 youtube"
-        "section3 instagram"
-        "outro outro"
-        "socials socials"
+
 /* Sign-Up Form*/
 
 
