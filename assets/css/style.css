@@ -10,9 +10,8 @@
 
 .container {
     display: grid;
-    height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .33fr 1fr .33fr 1fr 1fr 1fr 1fr .33fr;
+    grid-template-rows: .04fr .5fr .01fr .8fr .8fr .8fr .8fr .03fr;
     grid-template-areas:
         "header nav1"
         "intro intro"
@@ -237,7 +236,7 @@ footer {
     font-size: 250%;
     margin: 1%;
     padding: 2%;
-    padding-right: 2em;
+    padding-right: 30px;
     color: rgb(196, 60, 30);
 }
 
@@ -246,7 +245,7 @@ footer {
 @media only screen and (max-width:550px) {
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 0.2fr 0.75fr 0.175fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr ;
+        grid-template-rows: 0.04fr 0.02fr 0.5fr 0.01fr .8fr .8fr .6fr .6fr .8fr .8fr .8fr 0.03fr ;
         grid-template-areas:
             "header"
             "nav1"
@@ -263,7 +262,16 @@ footer {
         ;
     }
 }
-
+.04fr .5fr .01fr .8fr .8fr .8fr .8fr .03fr;
+    grid-template-areas:
+        "header nav1"
+        "intro intro"
+        "nav2 nav2"
+        "section1 box"
+        "section2 youtube"
+        "section3 instagram"
+        "outro outro"
+        "socials socials"
 /* Sign-Up Form*/
 
 
@@ -271,8 +279,8 @@ footer {
     margin: 150px 10% 0 0;
     color: black;
     background-color: rgba(243, 45, 1, 0.3);
+    position: absolute;
     max-width: 550px;
-    position: fixed;
     left: 10%;
     padding: 30px;
 }
