@@ -37,14 +37,27 @@ h3 {
 
 /*Logo and main nav bar*/
 
-#logo {
-    grid-area: header;
-    font-size: 150%;
+header {
+    background-color: rgb(196, 60, 30);
+}
+
+header h1 {
+    font-size: 300%;
     text-decoration: underline;
     text-transform: uppercase;
     background-color: rgb(196, 60, 30);
     color: white;
-    padding-left: 1.3em;
+    padding-left: 50px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo h1 {
+    
 }
 
 header a {
@@ -53,7 +66,6 @@ header a {
 }
 
 #nav1 {
-    grid-area: nav1;
     background-color: rgb(196, 60, 30);
     font-size: 125%;
     font-weight: 500;
@@ -265,18 +277,8 @@ footer {
 
 /* Sign-Up Form*/
 
-.container2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: 1fr 1fr 1fr;
-    grid-template-areas:
-    "header"
-    "form-section"
-    "footer"
-    ;
-}
+
 .signup-form {
-    grid-area: form-section;
     margin: 150px 10% 0 0;
     color: black;
     background-color: rgba(243, 45, 1, 0.3);
