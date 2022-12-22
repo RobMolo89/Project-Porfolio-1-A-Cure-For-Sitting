@@ -11,16 +11,14 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .04fr .5fr .01fr .8fr .8fr .8fr .8fr .03fr;
+    grid-template-rows: .5fr .01fr .8fr .8fr .8fr .8fr;
     grid-template-areas:
-        "header nav1"
         "intro intro"
         "nav2 nav2"
         "section1 box"
         "section2 youtube"
         "section3 instagram"
         "outro outro"
-        "socials socials"
     ;
 
 }
@@ -249,9 +247,8 @@ footer {
     .container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.04fr 0.02fr 0.5fr 0.01fr .8fr .8fr .6fr .6fr .8fr .8fr .8fr 0.03fr ;
+        grid-template-rows:  0.02fr 0.5fr 0.01fr 0.8fr 0.8fr 0.6fr 0.6fr 0.8fr 0.8fr 0.8fr;
         grid-template-areas:
-            "header"
             "nav1"
             "intro"
             "nav2"
@@ -262,7 +259,6 @@ footer {
             "section3"
             "instagram"
             "outro"
-            "socials"
         ;
     }
 }
@@ -410,17 +406,3 @@ hr {
     }
   }
   
-  @media (max-width: 800px){
-    body {
-      transform: scale(0.6);
-    }
-  }
-  
-  @media (max-width: 600px) {
-      .wrapper {
-      display: block;
-      > * {
-        margin: 10px;
-      }
-    }
-  }
