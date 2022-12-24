@@ -8,20 +8,6 @@
 
 /*Grid Area*/
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: .5fr .01fr .8fr .8fr .8fr .8fr;
-    grid-template-areas:
-        "intro intro"
-        "nav2 nav2"
-        "section1 box"
-        "section2 youtube"
-        "section3 instagram"
-        "outro outro"
-    ;
-
-}
 
 
 
@@ -56,9 +42,6 @@ header h1 {
     justify-content: space-between;
 }
 
-#logo h1 {
-    
-}
 
 header a {
     text-decoration: none;
@@ -255,25 +238,7 @@ footer {
 
 /*Mobile screen responsivness*/
 
-@media only screen and (max-width:550px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows:  0.02fr 0.5fr 0.01fr 0.8fr 0.8fr 0.6fr 0.6fr 0.8fr 0.8fr 0.8fr;
-        grid-template-areas:
-            "nav1"
-            "intro"
-            "nav2"
-            "section1"
-            "box"
-            "section2"
-            "youtube"
-            "section3"
-            "instagram"
-            "outro"
-        ;
-    }
-}
+@media only screen and (max-width:550px)
 
 /* Sign-Up Form*/
 
