@@ -100,6 +100,11 @@ p {
 
 }
 
+hr {
+    border-top: 4px solid white;
+    width: 100%;
+}
+
 #intro {
     color: rgb(196, 60, 30);
     text-align: center;
@@ -379,11 +384,6 @@ footer {
     text-decoration: none;
 }
 
-hr {
-    border-top: 4px solid black;
-    margin-bottom: 20px;
-    width: 100%;
-}
 
 .text-input {
     background: white;
