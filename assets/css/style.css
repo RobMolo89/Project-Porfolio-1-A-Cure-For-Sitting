@@ -12,8 +12,7 @@
 
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: hind Vadodara, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -153,10 +152,8 @@ p {
 }
 
 #box {
-    grid-area: box;
     place-items: center;
     text-align: center;
-    padding-top: 130px;
     background-color: black;
 }
 
@@ -173,14 +170,14 @@ p {
 #section2 {
     grid-area: section2;
     padding: 40px 40px 100px 100px;
-    
+
 }
 
 #youtube {
     grid-area: youtube;
     margin-top: 100px;
     padding: 3em;
-    
+
 
 }
 
@@ -216,7 +213,6 @@ p {
 /* footer and socials*/
 
 footer {
-    grid-area: socials;
     background-color: black;
 }
 
@@ -238,10 +234,8 @@ footer {
 
 /*Mobile screen responsivness*/
 
-@media only screen and (max-width:550px)
 
 /* Sign-Up Form*/
-
 
 .signup-form {
     margin: 150px 10% 0 0;
@@ -253,7 +247,7 @@ footer {
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: black;
     margin-bottom: 5px;
     text-decoration: none;
@@ -299,33 +293,30 @@ hr {
 
 /* Program.HTML */
 
- .program {
-    height: 100vh;
+.program {
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .program h1 {
-    font-family: hind Vadodara, sans-serif;
-    font-size: 22px;
-    color: rgb(196, 60, 30);
-    font-weight: 300;
-    letter-spacing: 2px;
-  }
-  
-  .wrapper {
+}
+
+.program h1 {
+    text-decoration: underline;
+}
+
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    > * {
-      margin: 5px;
+
+    >* {
+        margin: 5px;
     }
-  }
-  
-  .media {
+}
+
+.media {
     width: 300px;
     height: 200px;
     overflow: hidden;
@@ -333,43 +324,55 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-        max-width: 100%;
-        height: auto;
-      }
-  }
-  
-  .layer {
+}
+
+.layer {
     opacity: 0;
     position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     width: 10px;
     height: 90%;
-    background: black;
-    color: rgb(196, 60, 30);
-    transition: all 0.9s ease;
+    background: #FFF;
+    transition: all 0.4s ease;
+
     p {
-      transition: all 0.9s ease;
-      transform: scale(0.1)
+        transition: all 0.9s ease;
+        transform: scale(0.1)
     }
-  }
-  
-  .program p {
-    font-family: hind Vadodara, sans-serif; 
-    text-align: center;
-    font-size: 15px;
-    letter-spacing:1px;
-  }
-  
-  .media:hover .layer {
+}
+
+.layer h3 {
+    align-self: center;
+    font-family: hind Vadodara, sans-serif;
+    padding-top: 5px;
+}
+
+.layer p {
+    padding-top: 40px;
+    font-size: medium;
+    align-self: center;
+}
+
+.layer a {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+.layer a:hover {
+    text-decoration: underline;
+    background-color: rgb(196, 60, 30, .6);
+    border-radius: 3px;
+}
+
+.media:hover .layer {
     opacity: 0.8;
     width: 90%;
     transition: all 0.5s ease;
+
     p {
-      transform: scale(1);
-      transition: all 0.9s ease;
+        transform: scale(1);
+        transition: all 0.9s ease;
     }
-  }
-  
+}
