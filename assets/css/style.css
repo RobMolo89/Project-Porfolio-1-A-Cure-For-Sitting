@@ -273,8 +273,71 @@ footer {
     color: rgb(196, 60, 30);
 }
 
-/*Mobile screen responsivness*/
+/* Media queries */
 
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #section1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: black;
+        padding: 50px 0;
+    }
+}
+
+/* For medium to small screens size from 900px wide and down */
+@media screen and (max-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #section2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    #youtube {
+        
+        margin-left: 60px;
+    }
+}
+
+/* For small screens size from 620px wide and down */
+@media screen and (max-width: 620px) {
+
+    #nav2 {
+        text-align: center;
+    }
+
+    #nav2 li {
+        display: inline;
+        list-style-type: none;
+        font-size: medium;
+        font-weight: 700;
+        padding-left: 50px;
+    
+    }
+    
+    #section3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: black;
+        padding: 50px 10px;
+    }
+
+    #intro {
+        padding: 60px;
+    }
+
+    #outro {
+        padding: 60px;
+    }
+}
 
 
 
