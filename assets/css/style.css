@@ -516,6 +516,7 @@ footer {
 
 
 /* Sign-Up Form*/
+
 .section-display {
     display: flex;
     justify-content: flex-start;
@@ -569,7 +570,7 @@ footer {
 }
 
 #background-image {
-    background: url("/assets/images/happy\ sitting\ at\ a\ computer.jpg") no-repeat center center;
+    background: url("../images/happy_sitting_at_a_computer.jpg") no-repeat center center;
     background-size: cover;
 }
 
