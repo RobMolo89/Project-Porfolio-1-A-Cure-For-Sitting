@@ -235,11 +235,14 @@ hr {
     color: white;
 }
 
+#whole-body a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 #instagram {
     place-self: center;
 }
-
-
 
 #outro {
     grid-area: outro;
@@ -360,11 +363,20 @@ footer {
         padding: 50px 10px;
     }
 
+    #instagram {
+        display: none;
+    }
+
+    #whole-body a {
+        text-decoration: underline;
+        
+    }
 
     #outro {
         padding: 40px;
     }
 
+    /*Footer*/
 
     .socials i {
         font-size: 150%;
