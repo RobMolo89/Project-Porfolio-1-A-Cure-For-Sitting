@@ -20,6 +20,7 @@ h2 {
 
 header {
     background-color: rgb(196, 60, 30);
+    border-bottom: 3px solid #020000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +28,8 @@ header {
 }
 
 header h1 {
-
+    font-weight: bolder;
+    text-shadow: 0 0 8px #030000;
     text-decoration: underline;
     text-transform: uppercase;
     background-color: rgb(196, 60, 30);
@@ -54,6 +56,7 @@ header a {
     letter-spacing: 2.5px;
     padding-right: 1.5em;
     text-align: end;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #nav1 li {
@@ -120,6 +123,7 @@ hr {
     top: 0;
     text-align: end;
     background-color: rgb(196, 60, 30);
+    border: 2px solid #020000;
 }
 
 #nav2 ul {
@@ -133,7 +137,7 @@ hr {
     list-style-type: none;
     font-size: large;
     font-weight: 700;
-    padding-left: 50px;
+    padding-left: 10px;
 
 }
 
