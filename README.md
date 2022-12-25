@@ -4,6 +4,8 @@ A cure for sitting is a project looking to educate software developers on ways t
 
 <!-- add screenshot generator image here -->
 
+
+
 ## Features
 + Nav bar & header design. This will introduce the general style of the site with the heading **A Cure For Sitting** and navigation links to the following features/sections.
 <!-- link to naviagation bar with image here -->
