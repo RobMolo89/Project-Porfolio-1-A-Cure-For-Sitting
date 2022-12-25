@@ -29,16 +29,15 @@ header {
 
 header h1 {
     font-weight: bold;
-    
     text-transform: uppercase;
     background-color: rgb(196, 60, 30);
     color: white;
     padding-left: 50px;
     text-shadow:
-    1px  1px 2px black,
-    1px 1px 2px black,
-   1px  1px 2px black,
-   1px 1px 2px black;
+        1px 1px 2px black,
+        1px 1px 2px black,
+        1px 1px 2px black,
+        1px 1px 2px black;
 }
 
 
@@ -304,7 +303,7 @@ footer {
 
     #diaphragm,
     #spine,
-    #whole-body  {
+    #whole-body {
         padding: 0 50px 0 30px;
     }
 
@@ -320,6 +319,27 @@ footer {
 
 @media screen and (max-width: 620px) {
 
+    header h1 {
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+
+    #nav1 {
+        font-size: 100%;
+        font-weight: 300;
+        letter-spacing: 2.5px;
+
+    }
+
+    #nav1 li {
+        margin-right: 10px;
+    }
+
+    #intro {
+        padding: 40px;
+    }
+
     #nav2 {
         text-align: center;
     }
@@ -330,7 +350,6 @@ footer {
         font-size: medium;
         font-weight: 700;
         padding-left: 20px;
-
     }
 
     #section3 {
@@ -341,13 +360,65 @@ footer {
         padding: 50px 10px;
     }
 
-    #intro {
-        padding: 60px;
-    }
 
     #outro {
-        padding: 60px;
+        padding: 40px;
     }
+
+
+    .socials i {
+        font-size: 150%;
+        margin: 1%;
+        padding: 2%;
+        padding-right: 30px;
+        color: rgb(196, 60, 30);
+    }
+
+    /* Program HTML */
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: auto;
+    }
+
+    .program h1 {
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    /*Sign-up HTML */
+
+    .signup-form {
+        height: 60vh;
+        color: black;
+        background-color: rgb(196, 60, 30, .6);
+        max-width: 550px;
+        padding: 10px 30px;
+    }
+
+    .signup-form>h2 {
+        color: black;
+        margin-bottom: 5px;
+        text-decoration: none;
+        padding: 0;
+        margin: auto;
+        font-size: large;
+        font-weight: 700;
+    }
+
+
+    .text-input {
+        background: white;
+        font-weight: bold;
+        color: #050000;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #020000;
+        border-radius: 2px;
+    }
+
 }
 
 
