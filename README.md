@@ -38,6 +38,7 @@ A cure for sitting is a project looking to educate software developers on ways t
 
   # Surface
   + The finsihed product looks exaclty as conceptualised with only the instagram reel post image removed from the mobile screen responsive design to keep the site looking clean and simple when scrolling on a hand held device. This was replaced by adding an anchor element to the line of text directing towards the instagram post and decorating the text with an underline when the screen size is reduced below 620px in width.
+![Instagram reel screenshot from Desktop](./assets/images/instagram_reel_screenshot.png) ![Underlined hyperlinked text leading to same instagram reel in the Whole-body paragraph](./assets/images/underlined_hyperlink_for_instagram_reel_screenshot.png)
 
 # Features
 
@@ -45,7 +46,7 @@ A cure for sitting is a project looking to educate software developers on ways t
 + ### Header. 
 
   This will introduce the general style of the site with the heading **A Cure For Sitting** and navigation links to the following features/sections.
-
+![A screenshot of the header used across all 3 pages](./assets/images/header_screenshot.png)
 ### Sections
  The site main sections will be broken into three main parts directed towards educating and capturing the readers interest towards physical health when working in a seated position for long periods of time.
 
@@ -54,43 +55,44 @@ A cure for sitting is a project looking to educate software developers on ways t
   
   <br>
 
-  **The second section will be further divided into 3 main sections.**
+ + **The second section will be further divided into 3 main sections.**
 
-+  ### Diaphragm
-   A paragraph explaining the importance of breathing with an accompanying image and link to more information on the topic.
+    1.  ### Diaphragm
+         A paragraph explaining the importance of breathing with an accompanying image and link to more information on the topic.
 
-   The added image and external link will add value in breaking up the text and adding the first practical element to the user experience.
+         The added image and external link will add value in breaking up the text and adding the first practical element to the user experience.
 
-+  ### Spine
-   This paragraph quickly explains the importance of moving your spine and layers on the value of the practical elements to this page. This is further expanded on with an emebedded youtube video.
+    2.  ### Spine
+         This paragraph quickly explains the importance of moving your spine and layers on the value of the practical elements to this page. This is further expanded on with an emebedded youtube video.
 
-+  ### Whole Body
-   The final paragraph on the home page brings all the practical elements together and invites to user to get up and move. A link to an instagram post directed at conveying this message in a clever way is attatched and placed nicely next to this paragraph of text.
+    3.  ### Whole Body
+        The final paragraph on the home page brings all the practical elements together and invites to user to get up and move. A link to an instagram post directed at conveying this message in a clever way is attatched and placed nicely next to this paragraph of text.
 
 + ### Outro
   The final main section will be an outro focused on nicely tidying up the concept of movement as a treatment for pain from sitting for long periods of time. thsi will end with a line of text guiding users to social media links in the footer.
 
 + ### Footer 
   A simple design in touch with the sites design with links to social medias.
+![Screenshot of footer used across all 3 pages](./assets/images/footer.png)
 
-
-<!-- link to sections tab here -->
 
   ## Navigation links
- will be placed across the top right hand side of the header to guide users to other pages on the website.
+  will be placed across the top right hand side of the header to guide users to other pages on the website.
 
   + **Program**
         
     A page dedicated to the ading further value to ridding users of pain from long term sitting by giving them a program to follow and implement.
+![Screenshot of main section of program page](./assets/images/program.png)
 
   + **Sign-up** 
 
     This page will give users the chance to enter their email, name and interest in either a webinar or workshop with more encouragment to reach out via social media links and email address. 
-  <!-- link to sign up page with image here -->
+    A background image of someone sitting at a desk, upright and looking happy is added to convey the message of being healthy and pain free at a desk based job.
+![Screenshot of form to be used on sign-up page](./assets/images/sign-up.png)
 
 ## Sticky Nav Bar
   A second nav bar with internal links to the text heavy sections of the home page for easier navigation.
-
+![Sticky Navigation Bar to internal sections](./assets/images/sticky_navbar2.png)
 # Features left to Implement
 + More programs to be added to the program page for different areas of the body. E.g. Shoulder pain. Sciatica like symptoms.
 
