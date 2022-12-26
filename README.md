@@ -123,3 +123,36 @@ A cure for sitting is a project looking to educate software developers on ways t
 + Prior to deployment the final code was rnn through  the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors also.
 + 
+
+
+
+# Deployment
+
+## How this Project was Deployed
+
+This project was deployed to GitHub pages via the following steps:
+
+1. Log into [GitHub](https://GitHub.com/).
+2. From the list of Repositories, select [Project-Porfolio-1-A-Cure-For-Sitting](https://github.com/RobMolo89/Project-Porfolio-1-A-Cure-For-Sitting).
+3. From the Repositories sub-headings, select "Settings".
+4. Scroll downa dn find "Pages" then click on this section.
+5. From the dropdown list under the "Branch" heading, select "main".
+6. A second drop-down menu that appears should remain as the default value, "/root".
+7. Press Save. 
+8. On Page refresh, the live link to the page will be available at the top of the pages section.
+![Live page screenshot from settings, pages on github](./assets/images/deployed_page_link.png)
+
+
+
+## How to Run this Project in your Browser
+
+1. Install the [Google Chrome](https://www.google.co.uk/chrome/) or [Firefox](https://www.mozilla.org/en-GB/exp/firefox/new/) browser.
+2. Install the applicable [GitPod](https://www.gitpod.io/docs/browser-extension/) Browser Extensions for your chosen browser.
+4. Create a [GitHub](https://GitHub.com/join) account. 
+3. Log in to [Gitpod](https://gitpod.io/login/) using your GitHub account.
+4. Visit Hard Driver's [GitHub Repository](https://GitHub.com/BAK2K3/hard-drivers).
+5. Open the repository in Gitpod:
+    * Click the green "Gitpod" icon at the top of the Repository, or
+    * Click this [link](https://gitpod.io/#https://GitHub.com/BAK2K3/hard-drivers).
+6. A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
+
