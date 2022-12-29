@@ -165,6 +165,15 @@ CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css
 + Ensure all links to social media sites are clickable across all devices and on all three pages by clicking them on all pages and all device types.
 
 
+## Program Page
++ Ensure each exercise section has the correct hover element working properly by hovering the cursor over it on a desktop ot laptop or pressing the area inside the image on a touchcreen device so that the information displays over the picture.
++ Ensure each of the hover elements has a clickable link to an external youtube video of each exercise mentioned by clicking the name of the exercise once hovered over on desktop and laptop devices cursor or pressing the image once and then on the heading again on a touch screen device.
+
+## Sign-Up Page
++ Ensure each input element needs text inserted to submit the information by trying to click submit without inputting any information.
++ Ensure one radio button has to be selected before submitting by trying to submit without choosing one of the options.
++ Ensure only one option can selected by choosing one and then choosing another and observing the previously chosen option become un-selected.
+
 # Deployment
 
 ## How this Project was Deployed
