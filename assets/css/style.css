@@ -299,6 +299,12 @@ footer {
 /* For medium to small screens size from 900px wide and down */
 
 @media screen and (max-width: 900px) {
+    
+    h2,
+    p {
+        text-align: center;
+    }
+    
     header {
         display: flex;
         flex-direction: column;
@@ -321,6 +327,10 @@ footer {
 /* For small screens size from 620px wide and down */
 
 @media screen and (max-width: 620px) {
+
+    p {
+        font-size: 100%;
+    }
 
     header h1 {
         text-align: center;
@@ -350,9 +360,10 @@ footer {
     #nav2 li {
         display: inline;
         list-style-type: none;
-        font-size: medium;
+        font-size: small;
         font-weight: 700;
         padding-left: 20px;
+
     }
 
     #section3 {
@@ -569,14 +580,15 @@ footer {
     color: rgb(196, 60, 30);
 }
 
-#background-image {
-    background: url("../images/happy_sitting_at_a_computer.jpg") no-repeat center center;
-    background-size: cover;
-}
-
 .text-label {
     font-weight: 600;
     color: #fafafa;
     text-decoration: underline;
     letter-spacing: 2.5px;
 }
+
+#background-image {
+    background: url("../images/happy_sitting_at_a_computer.jpg") no-repeat center center;
+    background-size: cover;
+}
+

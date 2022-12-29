@@ -119,10 +119,23 @@ A cure for sitting is a project looking to educate software developers on ways t
 * [Mocup Screenshot Generator](https://ui.dev/amiresponsive)
   * Mocup screenshot generator was used to create the responsivness image in this README.md file.
 # Testing
+## Whole Site Functionality
 + The site was consistently launched with the python3 -m http.server command in the terminal of Github to check if the implemented code worked and to help see what it looked like in design and layout.
 + Prior to deployment the final code was rnn through  the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors also.
-+ 
+
+ <p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
++ Ensure "Tabbing" works acrross all interactive features on all pages by pressing the tab button and see it highlight the feature
+
++ Checking that all pages respond to different screen sizes by right clicking anywhere on the site (except over an active feature), clicking on inspect then on the top left of the development toolbar, find the second icon with different devices and click it to activate responsivness device toolbar. Then, clicking and dragging the right border with two lines in the middle, adjust the screen size to see if all elements in each page respond in size change and layout for smaller screen sizes.
+
 
 
 
