@@ -195,3 +195,15 @@ This project was deployed to GitHub pages via the following steps:
     * Click this [link](https://gitpod.io/#https://GitHub.com/BAK2K3/hard-drivers).
 6. A new workspace will open with the current state of the master branch. Any changes made to the master branch after this point will not be automatically updated in your Gitpod Workspace.
 
+# Credits
+## Content
++ All text used throughout this site was written by me and from my experiences as a physical therapist.
++ All business ideas and general development concepts were devised by me.
+
+## Media 
++ The Box breathing Method GIF was sourced from [The Maimonides Emegency Medicine Website.](https://www.maimonidesem.org/blog/box-breathing-technique-nbspnbsp)
++ The YouTube video was sourced from my own YouTube Channel.
++ The Instagram Rell is from my own Instagram profile.
++ The program videos are from my own YouTube channel.
++ The sign-up background image is from Pexels by Andrea Piacquadio.
+
