@@ -119,7 +119,7 @@ A cure for sitting is a project looking to educate software developers on ways t
 * [Mocup Screenshot Generator](https://ui.dev/amiresponsive)
   * Mocup screenshot generator was used to create the responsivness image in this README.md file.
 # Testing
-## Whole Site Functionality
+## Whole Site Functionality and Resonsivness.
 + The site was consistently launched with the python3 -m http.server command in the terminal of Github to check if the implemented code worked and to help see what it looked like in design and layout.
 + Prior to deployment the final code was rnn through  the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors also.
@@ -136,7 +136,33 @@ CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css
 
 + Checking that all pages respond to different screen sizes by right clicking anywhere on the site (except over an active feature), clicking on inspect then on the top left of the development toolbar, find the second icon with different devices and click it to activate responsivness device toolbar. Then, clicking and dragging the right border with two lines in the middle, adjust the screen size to see if all elements in each page respond in size change and layout for smaller screen sizes.
 
++ Ensure website is responsive and layout is still inline with the desired structure UX of the site on different devices by launching the website on an android mobile device, desktop and tablet.
 
+## Header
+
++ Ensure the logo is clickable and returns the user to the home page from every other page across all other devices by clicking on it from other pages.
++ Ensure navigation links lead to stated pages from every other page across all devices by clicking them on all pages from different devices.
++ Ensure logo and Nav bar change from an inline view to column view within the header when changing from desktop or tablet view to mobile view.
+
+## Sticky Nav Bar
++ Make sure the second, internal navigation links send the user to the correct part of the home page by clicking the relevant link and that this works on all other devices by clicking links on a tablet and mobile device.
++ Ensure font size of the naviagation elements change accordingly on mobile screen devices to a smaller font size so it stays legible and within the structure of the whole site layout.
+
+## Box Breathing Method
++ Ensure the header and GIF of the box breathing method leads to an external page in a new tab by clicking anywhere on the header and link on all devices.
+
+## Youtube Video
++ Ensure the emmbedded youtube video does not autoplay upon opening the home page across all devices and that the play button and all other youtube functionality buttons work when clicked by clickeing them on mobile and tablet devices.
+
+## Whole Body and Instagram section
++ Ensure when viewing on smaller screensizes that the instagramn video dissappears and the last line of text becomes underlined to highlight it being hyperlinked by opening the home page on a mobile device and clicking on the underlined text to open up the instagram reel on a different page.
++ Ensure the instagram reel embedded on the home page on bigger screen devices is interactive by clicking the different instagram functions on desktop, laptops and larger tablets from screen width 600px and up.
+
+## Outro
++ Ensure underline "Sign-up" text brings users to the sign-up.html page when clicked across all devices by opening the webpage on desktops, laptops, tablets and mobile devices then clicking the link.
+
+## Footer
++ Ensure all links to social media sites are clickable across all devices and on all three pages by clicking them on all pages and all device types.
 
 
 # Deployment
