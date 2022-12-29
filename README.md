@@ -1,4 +1,23 @@
 # Milestone Project 1- A Cure for Sitting
+[View website on GitHub Pages](https://robmolo89.github.io/Project-Porfolio-1-A-Cure-For-Sitting/sign-up.html)
+
+# Table of Contents
+1. [Purpose](#purpose)
+2. [User Experience](#user-experience-design)
+     1. [Strategy](#strategy)
+     2. [Scope](#scope)
+    3. [Structure](#structure)
+     4. [Skeleton](#skeleton)
+    5. [Surface](#surface)
+3. [Features](#features)
+     1. [Home Page](#home-page)
+     2. [Program](#program-page)
+     3. [Sign-up](#sign-up-page)
+4. [Technologies](#technologies)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Acknowledgements](#acknowledgements)
 ## Purpose
 A cure for sitting is a project looking to educate software developers on ways to combat the negative physical effects of sitting for long periods of time. This site will be focused towards those who have tried the conventional interventions such as workplace ergonomics and passive physical modalities like cupping and dry needling and who are still suffering with aches and pains. The site is intended to be an intro to a new, proven method of pain relief through breath work and movement with the intent of future participation in a workplace wellness workshop or webinar. 
 
