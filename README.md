@@ -205,5 +205,22 @@ This project was deployed to GitHub pages via the following steps:
 + The YouTube video was sourced from my own YouTube Channel.
 + The Instagram Rell is from my own Instagram profile.
 + The program videos are from my own YouTube channel.
-+ The sign-up background image is from Pexels by Andrea Piacquadio.
++ The sign-up background image is from [Pexels](https://www.pexels.com/) by [Andrea Piacquadio.](https://www.pexels.com/@olly/)
+
+## Code
+
++ HTML/CSS: Implementation and utilisation of Flexbox was assisted by [CSS-Tricks.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
++ HTML/CSS: Implementation and utilisation of Grid was assisted by [CSS-Tricks.](https://css-tricks.com/snippets/css/complete-guide-grid/)
++ The embedded Instagram video HTML was taken from [HTCI API](https://docs.htmlcsstoimage.com/guides/instagram-embed/) and edited to suit the responsivness of this site.
++ CSS Gallery Hover effect on the program page was taken from [Codepen](https://codepen.io/sashatran/pen/aJvaEG) and modified by me.
++ The HTML/CSS for the sign-up formm was taken from the [Love Running Walkthrough Project.](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/) and adjusted to suit the nature of this project.
++ README.md inspiration and structure from [BAK2K3](https://github.com/BAK2K3/hard-drivers/blob/master/README.md) & [Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md)
+
+# Acknowledgements
++ The Code Institute Diploma in Full Stack Software Development has currently thought me everything I've needed so far for this project.
++ Thank you to my Student Support Mentor, Ronan McClelland, who provided supportive and constructive guidance in conceptualising the idea for the project and all the technical guidance also.
++ Thank you also to the Slack Team on the project-portfolio-1 group for technica support and advice.
+
+# Disclaimer
+This website is for educational purposes only.
 
